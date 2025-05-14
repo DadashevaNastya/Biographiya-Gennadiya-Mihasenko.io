@@ -9,4 +9,5 @@ h4{margin-inline-start:15%;color: rgb(71, 49, 49); font-size: 18px; text-align:c
 h5{color: rgb(95, 30, 30); font-size: 15px; text-align:center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;}
 h6{color: rgb(95, 30, 30); font-size: 12px; text-align:center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;}
 h7{color: rgb(95, 30, 30); font-size: 10px; text-align:center;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;}
-
+container{text-align:center; }
+ex5{display:inline-block}
