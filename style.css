@@ -44,4 +44,6 @@ ex5{display:inline-block}
 /* Медиа-запрос для больших экранов */
 @media (min-width: 1170px) {
     .wrapper {
-        max-width: 1170px;
+         max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
