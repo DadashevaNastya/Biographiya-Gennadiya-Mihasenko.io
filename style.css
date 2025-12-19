@@ -213,28 +213,18 @@ body {
         transform: rotate(45deg) translate(-5px, -6px);
     }
 }
-/* Стили самой кнопки */
-.download-button {
-    background-color: #007bff; /* Синий цвет */
-    color: white;              /* Цвет текста */
-    padding: 12px 24px;        /* Внутренние отступы */
-    text-decoration: none;     /* Убираем подчеркивание ссылки */
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;        /* Скругление углов */
-    transition: background-color 0.3s ease; /* Плавный переход цвета */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
-}
-
-/* Эффект при наведении мыши */
-.download-button:hover {
-    background-color: #0056b3; /* Более темный синий */
-    cursor: pointer;
-}
-
-/* Эффект при нажатии */
-.download-button:active {
-    transform: translateY(2px); /* Кнопка слегка "вдавливается" */
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-}
+.btn {
+    background: #5d8f76; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 7px 12px; /* Поля */
+    margin-bottom: 1em; /* Отступ снизу */
+   }
+   .btn:hover {
+    background: #1e6550; /* Цвет фона при наведении курсора */
+   }
+   .btn-flat {
+    border: 1px transparent; /* Прозрачная рамка */
+   }
+   .btn-round {
+    border-radius: 20px; /* Радиус скругления */
+   }
