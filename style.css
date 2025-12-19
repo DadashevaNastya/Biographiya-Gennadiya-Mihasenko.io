@@ -58,14 +58,14 @@ ex5{display:inline-block}
     transform: translateY(2px); /* Кнопка слегка "вдавливается" */
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
-      /* Общие стили для сброса и шрифтов */
-• {
+      
+ {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
+.body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     background-color: #f8f8f8;
@@ -73,8 +73,7 @@ body {
 }
 
 
-}
-
+.a { text-decoration: none
 
 }
 .ex5-button {
