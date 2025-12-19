@@ -26,15 +26,7 @@ ex5{display:inline-block}
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #cbb4a0;
-  color: black;
-}
 
-.topnav a.active {
-  background-color:#9b6f53;
-  color: white;
-}
 {
     max-width: 90%;
     margin-left: auto;
