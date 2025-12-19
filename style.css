@@ -101,5 +101,5 @@ ex5{display:inline-block}
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);    
 .topnav { backround-color: #d6c1b4}
     .topnav a{ text-decoration: none; color: #9b6f53}
-    .topnav hover{ backround-color:#c4a591 }
-    .topnav active {backround-color:#b38b70}
+    .topnav a hover{ backround-color:#c4a591 }
+    .topnav a active {backround-color:#b38b70}
