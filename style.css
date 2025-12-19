@@ -48,3 +48,35 @@ ex5{display:inline-block}
          max-width: 70%;
     margin-left: auto;
     margin-right: auto;
+.button-container {
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали */
+    align-items: center;     /* Выравнивание по вертикали (если у контейнера есть высота) */
+    padding: 20px;
+}
+
+/* Стили самой кнопки */
+.download-button {
+    background-color: #007bff; /* Синий цвет */
+    color: white;              /* Цвет текста */
+    padding: 12px 24px;        /* Внутренние отступы */
+    text-decoration: none;     /* Убираем подчеркивание ссылки */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;        /* Скругление углов */
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Эффект при наведении мыши */
+.download-button:hover {
+    background-color: #0056b3; /* Более темный синий */
+    cursor: pointer;
+}
+
+/* Эффект при нажатии */
+.download-button:active {
+    transform: translateY(2px); /* Кнопка слегка "вдавливается" */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
