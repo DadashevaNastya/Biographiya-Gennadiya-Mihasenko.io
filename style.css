@@ -259,15 +259,6 @@ body {
     margin-right: 5px; /* Отступ между элементами меню */
 }
 
-/* Стилизация ссылки-бренда/логотипа (опционально) */
-.topnav .brand {
-    font-weight: bold;
-    font-size: 20px;
-    margin-right: auto; /* Сдвигает этот элемент влево, а остальные - вправо */
-    padding-left: 0; /* Убираем лишний отступ, если нужен */
-    color: #fff;
-}
-
 /* Эффект при наведении на ссылки */
 .topnav a:hover {
     background-color: #555; /* Цвет фона при наведении */
@@ -280,14 +271,6 @@ body {
     color: white;
 }
 
-/* Стили для основного контента страницы (чтобы не перекрывался меню) */
-.content {
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto; /* Центрируем контент */
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Адаптивность для мобильных устройств (пример, можно расширить) */
