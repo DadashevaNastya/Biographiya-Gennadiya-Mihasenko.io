@@ -260,8 +260,7 @@ body {
 
 }
 
-/* Адаптивность для мобильных устройств (пример, можно расширить) */
-@media screen and (max-width: 600px) {
+
     .topnav {
         flex-direction: column; /* Элементы располагаются вертикально */
         align-items: flex-start; /* Прижимаем элементы к левому краю */
@@ -283,3 +282,26 @@ body {
         margin-bottom: 10px; /* Отступ под брендом */
     }
 }
+.ex5-button {
+    background-color: #007bff; /* Синий цвет */
+    color: white;              /* Цвет текста */
+    padding: 12px 24px;        /* Внутренние отступы */
+    text-decoration: none;     /* Убираем подчеркивание ссылки */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;        /* Скругление углов */
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+/* Эффект при наведении мыши */
+.ex5-button:hover {
+    background-color: #0056b3; /* Более темный синий */
+    cursor: pointer;
+}
+
+/* Эффект при нажатии */
+.ex5-button:active {
+    transform: translateY(2px); /* Кнопка слегка "вдавливается" */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);    
