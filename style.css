@@ -76,7 +76,7 @@ ex5{display:inline-block}
 .a { text-decoration: none
 
 }
-.ex5-button {
+.button {
     background-color: #007bff; /* Синий цвет */
     color: white;              /* Цвет текста */
     padding: 12px 24px;        /* Внутренние отступы */
@@ -90,12 +90,12 @@ ex5{display:inline-block}
 }
 
 /* Эффект при наведении мыши */
-.ex5-button:hover {
+.button:hover {
     background-color: #0056b3; /* Более темный синий */
     cursor: pointer;
 }
 
 /* Эффект при нажатии */
-.ex5-button:active {
+.button:active {
     transform: translateY(2px); /* Кнопка слегка "вдавливается" */
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);    
