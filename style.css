@@ -228,3 +228,96 @@ body {
    .btn-round {
     border-radius: 20px; /* Радиус скругления */
    }
+/* Общие стили для сброса отступов и оформления текста */
+body {
+    margin: 0; /* Убираем стандартные отступы браузера */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 60px; /* Важно: Отступ сверху, чтобы контент не перекрывался фиксированным меню */
+}
+
+/* Стилизация самого div topnav */
+.topnav {
+    background-color: #333; /* Темный фон */
+    overflow: hidden; /* Скрывает контент, выходящий за границы (например, для clear-fix) */
+    position: fixed; /* Фиксирует элемент на экране при прокрутке */
+    top: 0; /* Прижимает к верхней границе окна */
+    width: 100%; /* Растягивает на всю ширину */
+    z-index: 1000; /* Гарантирует, что меню будет поверх других элементов */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Легкая тень для объема */
+
+    display: flex; /* Используем Flexbox для выравнивания элементов внутри */
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+    justify-content: flex-start; /* Элементы начинаются слева */
+    padding: 0 20px; /* Горизонтальные отступы внутри меню */
+    min-height: 60px; /* Минимальная высота навигационной панели */
+}
+
+/* Стилизация ссылок внутри topnav */
+.topnav a {
+    color: #f2f2f2; /* Светлый цвет текста для контраста с темным фоном */
+    text-align: center;
+    padding: 14px 16px; /* Внутренние отступы для ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 17px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход при наведении */
+    border-radius: 4px; /* Немного скругляем углы для эффекта при наведении */
+    margin-right: 5px; /* Отступ между элементами меню */
+}
+
+/* Стилизация ссылки-бренда/логотипа (опционально) */
+.topnav .brand {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: auto; /* Сдвигает этот элемент влево, а остальные - вправо */
+    padding-left: 0; /* Убираем лишний отступ, если нужен */
+    color: #fff;
+}
+
+/* Эффект при наведении на ссылки */
+.topnav a:hover {
+    background-color: #555; /* Цвет фона при наведении */
+    color: white; /* Цвет текста при наведении */
+}
+
+/* Стили для активной ссылки (например, текущей страницы) */
+.topnav a.active {
+    background-color: #04AA6D; /* Зеленый цвет для активной ссылки */
+    color: white;
+}
+
+/* Стили для основного контента страницы (чтобы не перекрывался меню) */
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Центрируем контент */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Адаптивность для мобильных устройств (пример, можно расширить) */
+@media screen and (max-width: 600px) {
+    .topnav {
+        flex-direction: column; /* Элементы располагаются вертикально */
+        align-items: flex-start; /* Прижимаем элементы к левому краю */
+        padding: 10px;
+        min-height: auto; /* Высота подстраивается под контент */
+    }
+
+    .topnav a {
+        width: 100%; /* Ссылки занимают всю ширину меню */
+        text-align: left; /* Текст ссылок выравнивается по левому краю */
+        margin-right: 0;
+        padding: 10px 15px;
+    }
+
+    .topnav .brand {
+        width: 100%;
+        text-align: left;
+        margin-right: 0;
+        margin-bottom: 10px; /* Отступ под брендом */
+    }
+}
