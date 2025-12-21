@@ -77,7 +77,7 @@ ex5{display:inline-block}
 
 }
 .button {
-    background-color: #007bff; /* Синий цвет */
+    background-color: #c4a591; /* Синий цвет */
     color: white;              /* Цвет текста */
     padding: 12px 24px;        /* Внутренние отступы */
     text-decoration: none;     /* Убираем подчеркивание ссылки */
@@ -91,7 +91,7 @@ ex5{display:inline-block}
 
 /* Эффект при наведении мыши */
 .button:hover {
-    background-color: #0056b3; /* Более темный синий */
+    background-color: #b38b70; /* Более темный синий */
     cursor: pointer;
 }
 
