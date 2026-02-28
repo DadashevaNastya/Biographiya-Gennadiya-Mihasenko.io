@@ -13,7 +13,7 @@ li {padding-left:20%; padding-right: 20% ;color: #9b6f53; font-size: 20px; text-
 container{text-align:center; }
 ex5{display:inline-block}
 .container{
-    display: inline;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     border: 5px;
