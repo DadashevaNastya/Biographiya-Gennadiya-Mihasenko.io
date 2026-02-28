@@ -23,10 +23,6 @@ ex5{display:inline-block}
 #con1{
     margin-right: 25%;
     width: 150px;
-    border: 2px;
-    border-color: #9b6f53;
-    height: 150px;
-    border-right: 0px;
 }
 #con2{
     margin-left: 25%
