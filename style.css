@@ -16,22 +16,24 @@ ex5{display:inline-block}
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    border: 5px solid black;
+    border: 5px;
+    border-color: #9b6f53
     padding: 20px;
 }
 #con1{
     margin-right: 25%;
     width: 150px;
-    border: 2px solid black;
-    background-color: green;
+    border: 2px;
+    border-color: #9b6f53;
     height: 150px;
     border-right: 0px;
 }
 #con2{
     margin-left: 25%
     width: 100%;
-    border: 2px solid black;
-    background-color: yellow;
+    border: 2px;
+    border-color: #9b6f53;
+    background-color: #effe8dc;
     height: 300px;
 }
 
