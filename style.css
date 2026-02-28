@@ -19,6 +19,7 @@ ex5{display:inline-block}
     padding: 20px;
 }
 #con1{
+    margin-right: 25%;
     width: 150px;
     border: 2px solid black;
     background-color: green;
@@ -26,6 +27,7 @@ ex5{display:inline-block}
     border-right: 0px;
 }
 #con2{
+    margin-left: 25%
     width: 100%;
     border: 2px solid black;
     background-color: yellow;
